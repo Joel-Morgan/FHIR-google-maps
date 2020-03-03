@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, send_file
 import mapgenerator
 
 app = Flask(__name__)
@@ -17,15 +17,18 @@ def generatemap():
     except:
         input[0] = None
     try:
-        input[1] = request.args.get("keyfield")
+        if input[0] == "Address Range":
+            input[1] = float(request.args.get("keyfield"))
+        else:
+            input[1] = request.args.get("keyfield")
     except:
         input[1] = None
     try:
-        input[2] = request.args.get("latitudetext")
+        input[2] = float(request.args.get("latitudetext"))
     except:
         input[2] = None
     try:
-        input[3] = request.args.get("longitudetext")
+        input[3] = float(request.args.get("longitudetext"))
     except:
         input[3] = None
     print(input)
@@ -33,11 +36,14 @@ def generatemap():
     return render_template("patient_locations.html")
 
 
-@app.route("/locations")
-def location_map():
-    raw_html_file = open("templates/patient_locations.html")
-    raw_html = raw_html_file.read()
-    return raw_html
+@app.route("/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png")
+def returnredmarker():
+    return send_file("static/markers/FF0000.png", mimetype="image")
+
+
+@app.route("/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/0000FF.png")
+def returnbluemarker():
+    return send_file("static/markers/0000FF.png", mimetype="image")
 
 
 
