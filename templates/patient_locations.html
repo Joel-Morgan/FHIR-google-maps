@@ -1,0 +1,4631 @@
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps - pygmaps </title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization&sensor=true_or_false&key=AIzaSyCaCo7IoBMV1ZY7_mFN4454O_u7SAuE4V8"></script>
+<script type="text/javascript">
+	function initialize() {
+		var centerlatlng = new google.maps.LatLng(0.000000, 0.000000);
+		var myOptions = {
+			zoom: 2,
+			center: centerlatlng,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+
+		var latlng = new google.maps.LatLng(42.078172, -70.887033);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "119 Heidenreich Pathway Unit 24, Hanson, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.052832, -71.525232);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "358 Oberbrunner Approach Apt 4, Blackstone, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.189216, -72.814950);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "695 Quigley Trafficway, Westfield, Massachusetts, 01085, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.677002, -71.187252);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "920 Torp Stravenue, Fall River, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.093955, -71.023696);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "200 Hand Green Suite 29, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.322475, -71.150776);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "650 Ferry Approach Apt 29, Boston, Massachusetts, 02215, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.164092, -71.494546);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "330 Toy Run Unit 29, Milford, Massachusetts, 01757, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.315964, -71.117249);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "790 Goldner Center Apt 50, Boston, Massachusetts, 02134, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.399201, -71.130069);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "496 Cole Lane, Somerville, Massachusetts, 02155, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.359882, -71.252051);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1088 Kautzer Quay Unit 63, Newton, Massachusetts, 02461, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.617325, -70.928023);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "712 Schmidt Club Suite 38, New Bedford, Massachusetts, 02744, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.717541, -71.141772);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "670 Abshire Estate Suite 97, Lawrence, Massachusetts, 01843, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.207047, -72.627488);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "144 Anderson Walk, South Hadley, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.623706, -70.601874);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "921 Lebsack Center, Falmouth, Massachusetts, 02540, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.348803, -71.166819);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "116 Baumbach Divide Unit 78, Waltham, Massachusetts, 02453, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.939098, -70.605862);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "929 Marks Road, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.376075, -71.567521);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1082 Gerlach Common Suite 20, Marlborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.073352, -72.560051);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "505 Huels Wynd, Longmeadow, Massachusetts, 01106, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.584237, -71.437397);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1023 Prohaska Hollow, Westford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.232333, -71.033253);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "807 Effertz Port, Braintree, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.048226, -72.545789);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "118 Wiegand Camp, Longmeadow, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.421972, -71.122171);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "193 Willms Orchard, Cambridge, Massachusetts, 02140, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.333163, -72.481606);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "537 Stehr Heights, Amherst, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.871045, -71.031455);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "936 Schmidt Ville, Taunton, Massachusetts, 02718, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.034317, -71.797829);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "960 Christiansen Mill, Webster, Massachusetts, 01570, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.958294, -71.327636);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "691 Schimmel Esplanade, North Attleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.345493, -71.141211);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "603 Kreiger Boulevard Suite 1, Newton, Massachusetts, 02466, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.390934, -71.010012);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "294 Windler Union Apt 35, Winthrop, Massachusetts, 02152, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.498531, -70.921227);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "921 Swaniawski Drive, Lynn, Massachusetts, 01906, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.367111, -71.053604);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "426 Witting Lock Suite 28, Brookline, Massachusetts, 02446, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.123790, -70.894866);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1022 Pacocha Trailer Unit 80, Whitman, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.522347, -71.404583);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "740 Beier Promenade, Acton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.393536, -71.011490);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1064 Willms Key Apt 16, Boston, Massachusetts, 02121, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.369329, -71.050038);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "445 Parker Meadow, Boston, Massachusetts, 02163, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.521908, -70.997971);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "464 Armstrong Ville, Lynn, Massachusetts, 01901, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.236352, -71.845214);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1041 Kihn Alley, Worcester, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.258851, -71.706936);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "931 Rohan Heights Suite 53, Worcester, Massachusetts, 01606, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.114480, -70.947397);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "961 Schoen Path, Brockton, Massachusetts, 02351, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.649112, -71.309426);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "577 Pacocha Boulevard Suite 56, Lowell, Massachusetts, 01850, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.316868, -71.559178);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "720 Schumm Promenade, Southborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.615577, -70.841282);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "494 Stark Village Unit 93, Fairhaven, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.233161, -71.862713);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "432 Aufderhar Divide Unit 90, Worcester, Massachusetts, 01610, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.278276, -71.162153);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "334 Wehner Ville, Boston, Massachusetts, 02210, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.036057, -72.579835);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "799 Jerde Crossing Apt 53, Springfield, Massachusetts, 01108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.275297, -71.247205);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "158 Borer Burg Unit 55, Wellesley, Massachusetts, 02482, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.126944, -72.588397);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "501 Douglas Village Suite 8, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.348177, -71.201731);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "698 Champlin Stravenue, Boston, Massachusetts, 02132, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.338787, -71.077690);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "722 Rippin Hollow Apt 0, Boston, Massachusetts, 02127, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.159921, -71.974438);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "118 Parisian Highlands, Charlton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.203822, -72.647776);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "399 Wilderman Terrace, Holyoke, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.175668, -72.572257);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "766 Wehner Fork, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.175668, -72.572257);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "766 Wehner Fork, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.175668, -72.572257);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "766 Wehner Fork, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.633619, -70.871306);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "725 Lesch Mill Apt 19, Fairhaven, Massachusetts, 02719, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.633619, -70.871306);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "725 Lesch Mill Apt 19, Fairhaven, Massachusetts, 02719, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732015, -70.615767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Kautzer Pathway, Bourne, Massachusetts, 02532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732015, -70.615767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Kautzer Pathway, Bourne, Massachusetts, 02532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732015, -70.615767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Kautzer Pathway, Bourne, Massachusetts, 02532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732015, -70.615767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Kautzer Pathway, Bourne, Massachusetts, 02532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732015, -70.615767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Kautzer Pathway, Bourne, Massachusetts, 02532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732015, -70.615767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Kautzer Pathway, Bourne, Massachusetts, 02532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732015, -70.615767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Kautzer Pathway, Bourne, Massachusetts, 02532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.408513, -71.106034);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "949 Jast Street, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.408513, -71.106034);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "949 Jast Street, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.938793, -71.066824);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "894 Brakus Bypass, Taunton, Massachusetts, 02718, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.589423, -71.382765);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "378 Krajcik Lodge, Westford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.210740, -71.612000);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "638 Brakus Union Suite 44, Northbridge, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.410027, -71.077621);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "834 Hansen Run, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.211099, -72.444519);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "113 Abshire Heights, Ludlow, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.276213, -71.024993);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "441 Zemlak Union Unit 91, Milton, Massachusetts, 02186, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.367387, -72.437741);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "217 Will Spur Suite 31, Amherst, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.199602, -70.891636);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "721 Blanda Light Unit 95, Rockland, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.353931, -71.080380);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "506 Goldner Parade, Brookline, Massachusetts, 02215, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.316450, -71.773466);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "176 Walsh Course Suite 77, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.351767, -70.985975);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "323 Bernhard Spur, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.646525, -70.797219);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "528 Langosh Path, Beverly, Massachusetts, 01915, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.173359, -71.512656);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "387 Dickinson Trafficway Suite 33, Milford, Massachusetts, 01757, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.610405, -70.792761);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "316 Upton Hollow Unit 62, Wenham, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.894034, -70.712040);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "586 Walter Mill, Carver, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.386461, -71.085470);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "689 Johnson Esplanade Unit 40, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.802910, -71.062802);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "190 Howell Frontage road Suite 43, Fall River, Massachusetts, 02720, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.725134, -71.135733);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "808 Abbott Parade Apt 80, Lawrence, Massachusetts, 01840, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.655819, -72.168044);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "991 Koelpin Street, Athol, Massachusetts, 01331, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.332647, -71.671439);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "560 Renner Terrace, Shrewsbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.074147, -70.103085);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1044 Tremblay Rue Unit 65, Provincetown, Massachusetts, 02657, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.145455, -71.364168);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1044 Medhurst Divide Unit 41, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.174343, -72.621701);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "148 Langworth Trace, West Springfield, Massachusetts, 01089, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.408513, -71.106034);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "949 Jast Street, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.365285, -71.019171);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "734 Kertzmann Byway Apt 88, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.783314, -70.865979);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "484 Greenfelder Annex Unit 13, New Bedford, Massachusetts, 02740, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.469450, -71.168294);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "549 Von Row, Watertown, Massachusetts, 02472, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.372136, -71.351514);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "327 Roob Pathway, Framingham, Massachusetts, 01701, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.626495, -71.054430);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "244 Wilderman Divide Apt 84, Westport, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.671729, -72.002771);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "360 Paucek Crossroad, Winchendon, Massachusetts, 01475, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.510605, -70.795442);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "155 Harber Green, Marblehead, Massachusetts, 01945, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.550852, -71.488181);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "943 Wyman Run Unit 38, Littleton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.469523, -70.990192);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "517 Weissnat Mall, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.406059, -71.020066);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1052 Greenholt Rue Apt 75, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.528468, -70.959767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "863 Oberbrunner Street Suite 14, Saugus, Massachusetts, 01906, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.944925, -70.531912);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "266 Lemke Esplanade Apt 31, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.470250, -71.012871);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "480 Toy Lock Apt 56, Everett, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.208058, -71.423168);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "137 Schumm Landing, Holliston, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.447774, -71.059551);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "673 Glover Approach, Cambridge, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.709517, -71.041560);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "497 Quitzon Path, North Andover, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.316383, -71.754082);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "718 O'Reilly Mill, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.166467, -71.335273);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "850 Langworth Brook Apt 39, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.772201, -70.158535);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1079 Blick Center Apt 32, Yarmouth, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.646054, -70.624020);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "930 Dach Junction Suite 1, Falmouth, Massachusetts, 02540, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.250009, -71.805622);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "933 Berge Viaduct Unit 99, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.241010, -72.564332);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "248 Breitenberg Loaf, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.442854, -70.993510);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "357 Beier Glen Apt 6, Everett, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.732598, -69.887943);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "357 Lockman Lane, Chatham, Massachusetts, 02633, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.343184, -71.018562);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "515 Brekke Camp, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.443386, -71.448915);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "623 Buckridge Mission, Marlborough, Massachusetts, 01752, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.061982, -71.296592);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1075 Armstrong View Apt 30, North Attleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.904562, -70.984203);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "260 Lemke Ramp Suite 74, Berkley, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.716847, -71.067477);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "715 Murray Loaf, Lawrence, Massachusetts, 01840, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.309586, -71.720050);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1089 Abernathy Row, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.584764, -71.209385);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "232 Schmeler Byway, Billerica, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.376715, -72.697484);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "516 Rempel Gateway Apt 1, Northampton, Massachusetts, 01053, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.442746, -70.890872);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "411 Ankunding Lane, Winthrop, Massachusetts, 02128, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.648978, -71.344672);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "704 Durgan Vista, Westford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.739514, -71.091625);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "279 O'Hara Corner Unit 77, Lawrence, Massachusetts, 01840, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.422521, -70.963408);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "597 Jakubowski Center, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.263759, -71.800380);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "170 Gutmann Road, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.351912, -71.077662);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "393 Abshire Pathway Apt 90, Brookline, Massachusetts, 02215, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.206841, -72.627382);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "349 Murazik Fork, West Springfield, Massachusetts, 01089, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.492435, -71.088793);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "342 Johns Pathway, Arlington, Massachusetts, 02474, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.139364, -71.355226);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "282 Jaskolski Vale Apt 70, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.772979, -71.173007);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "912 Brown Rue, Fall River, Massachusetts, 02720, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.157289, -70.879787);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "275 McKenzie Parade Apt 72, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.066448, -70.938297);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "340 Bogan Branch Suite 38, Bridgewater, Massachusetts, 02324, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.144531, -72.548777);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "696 Eichmann Meadow, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.181554, -71.278062);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "173 Ritchie Ferry, Millis, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.759235, -72.007855);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "980 Littel Burg Apt 80, Winchendon, Massachusetts, 01475, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.645344, -71.016222);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "701 Hamill Trailer Unit 93, Westport, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.204549, -70.807002);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "628 Senger Plaza, Norwell, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.590774, -70.785646);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1084 Bartoletti Pathway, Salem, Massachusetts, 01907, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.506068, -71.046308);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "936 Koch Branch, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.110023, -72.593225);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "479 Ward Rapid Unit 70, Agawam, Massachusetts, 01001, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.303539, -71.155749);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "747 Jerde Underpass, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.378420, -71.761109);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "895 Considine Wall Unit 8, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.686280, -71.456729);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "189 Barton Green, Dunstable, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.365994, -70.969560);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "170 Feest Frontage road Suite 72, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.564447, -70.946321);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "818 King Tunnel Apt 82, Lynn, Massachusetts, 01901, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.355347, -71.586240);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "523 Hickle Road, Northborough, Massachusetts, 01532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.709937, -71.219740);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "315 Ward Junction Suite 11, Lowell, Massachusetts, 01850, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.052281, -71.789301);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "437 Wyman Boulevard, Webster, Massachusetts, 01570, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.068462, -71.138148);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "677 Bradtke Flat Apt 1, Mansfield, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.294336, -71.892369);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "337 Runte Green, Spencer, Massachusetts, 01562, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.116442, -71.154779);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "421 Hoppe Passage, Sharon, Massachusetts, 02067, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.142609, -70.955019);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "217 Wiegand Throughway, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.378506, -70.946230);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "748 Roob Center, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.361022, -71.056325);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "937 Lakin Fort, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.476920, -72.309457);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "203 Kihn Bridge, New Salem, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.813137, -71.014269);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "367 Farrell Lock Suite 49, Fall River, Massachusetts, 02720, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.917122, -71.292187);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "612 Nienow Terrace, Attleboro, Massachusetts, 02703, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.230019, -71.182958);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1059 Doyle Street, Walpole, Massachusetts, 02081, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.164722, -71.235726);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "402 Reynolds Neck, Walpole, Massachusetts, 02081, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.365421, -71.571516);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "502 Shields Gateway Apt 54, Westborough, Massachusetts, 01581, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.439997, -71.511767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "906 Thiel Gateway Apt 69, Marlborough, Massachusetts, 01752, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.430073, -71.127695);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "896 Murazik Club, Arlington, Massachusetts, 02474, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.874132, -71.160068);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "850 Stracke Knoll Unit 20, Rehoboth, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.292241, -72.574760);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1025 Stroman Ranch, South Hadley, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.809236, -71.057083);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "309 Abernathy Center, Somerset, Massachusetts, 02725, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.594671, -70.809992);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "704 Bergnaum Ferry Unit 24, Beverly, Massachusetts, 01915, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.210045, -70.846260);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "572 Bernhard Common Apt 92, Rockland, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.793826, -71.153931);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "371 Skiles Manor, Lawrence, Massachusetts, 01840, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.148338, -71.243987);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "203 O'Keefe Dam, Norfolk, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.280237, -71.447834);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "501 Gaylord Vale Unit 81, Ashland, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.730066, -70.922796);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "595 Larson Loaf Suite 18, New Bedford, Massachusetts, 02740, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.285655, -71.107493);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "896 Towne Loaf Apt 11, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.612417, -70.796525);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "933 Rutherford Village, Beverly, Massachusetts, 01915, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.312865, -71.370408);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "699 Braun Station Unit 52, Framingham, Massachusetts, 01701, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.217732, -72.398072);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "364 Daniel Ville Apt 47, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.321135, -71.008637);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "318 Sawayn Avenue, Milton, Massachusetts, 02186, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.399568, -72.545870);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "267 Hoppe Mission, Hatfield, Massachusetts, 01038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.090622, -71.315381);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "773 Kub Heights, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.301374, -71.792418);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "699 Towne Bridge, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.781979, -70.689855);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "696 Sanford Well Suite 25, Wareham, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.165604, -70.905108);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "297 Rice Rapid, Rockland, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.148509, -72.631124);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "986 Gaylord Forge Unit 17, West Springfield, Massachusetts, 01089, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.416173, -71.021808);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "648 Davis Esplanade, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.382687, -71.764322);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "773 Kunde Parade, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.950128, -71.220199);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1047 Bednar Lock Suite 3, Attleboro, Massachusetts, 02703, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.108785, -70.688326);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "903 Ruecker Hollow, Duxbury, Massachusetts, 02332, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.474417, -71.070773);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "240 Predovic Hollow, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.427815, -71.110451);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "748 Kuphal Rue Unit 82, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.373941, -71.060727);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "843 Kovacek Underpass, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.297575, -71.084761);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "181 Boyer Landing, Dedham, Massachusetts, 02026, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.371821, -71.017257);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "597 Blick Parade Unit 54, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.211737, -71.812231);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "573 Ruecker Pathway Suite 15, Auburn, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.734331, -71.104828);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "927 Purdy Gateway Apt 79, Fall River, Massachusetts, 02720, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.435826, -71.033640);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "117 Bednar Haven, Brookline, Massachusetts, 02215, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.105496, -71.012080);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "278 Raynor Center Apt 86, Easton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.866620, -70.948978);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "139 Goldner Trafficway, Amesbury, Massachusetts, 01913, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.294284, -70.957068);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "220 Dare Crossing Apt 58, Braintree, Massachusetts, 02184, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.399350, -71.172346);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "555 Dach Gateway Apt 67, Waltham, Massachusetts, 02451, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.055995, -71.316846);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "600 Stroman Dam Suite 48, North Attleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.551027, -71.308944);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "351 Grant Loaf Suite 65, Concord, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.274855, -71.778277);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "522 Dibbert Street, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.413496, -71.375890);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "463 Flatley Harbor, Framingham, Massachusetts, 01701, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.400194, -71.153519);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "828 Pfannerstill Light Apt 19, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.537557, -72.532308);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "690 Jacobi Row Suite 7, Deerfield, Massachusetts, 01342, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.184614, -72.595350);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "790 Altenwerth Trafficway, West Springfield, Massachusetts, 01089, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.290126, -70.724619);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "501 Rosenbaum Skyway, Scituate, Massachusetts, 02066, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.765559, -70.763219);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "404 Lynch Light, Rochester, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.317956, -71.841702);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "106 Bruen Byway Suite 50, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.366027, -71.339540);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "981 Skiles Port, Framingham, Massachusetts, 01701, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.394008, -70.982797);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "926 Emmerich Trailer Apt 40, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.301897, -71.237707);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "922 Jacobson Byway, Wellesley, Massachusetts, 02457, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.375274, -71.113982);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "324 Jast Branch Unit 73, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.629918, -70.899458);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "644 Feil Meadow Apt 86, Dartmouth, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.483874, -70.999267);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "729 Sporer Track Unit 51, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.341337, -71.061663);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1082 Roberts Landing Unit 63, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.440738, -71.047498);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "513 Crona Dale Unit 86, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.118586, -71.763499);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "269 Hagenes Grove Suite 29, Webster, Massachusetts, 01570, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.875228, -70.890212);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "430 Keeling Gateway, Amesbury, Massachusetts, 01913, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.382137, -71.004750);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "972 Considine Pathway, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.405912, -71.684149);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "700 Bailey Haven, Boylston, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.668395, -71.290500);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1056 Toy Corner, Lowell, Massachusetts, 01850, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.406570, -71.715007);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1040 Wyman Bay, Boylston, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.378587, -71.037749);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "845 Brown Flat Unit 74, Cambridge, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.161442, -70.980177);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "840 Klocko Orchard, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.526810, -71.465653);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "230 Jakubowski Hollow Apt 50, Boxborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.385967, -71.192016);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "299 Ryan Camp Apt 69, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.383293, -71.082474);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1007 Stanton Haven, Cambridge, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.126024, -72.542107);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "749 Mitchell Lane, Longmeadow, Massachusetts, 01106, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.998526, -71.308722);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "807 Abernathy Common, North Attleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.452221, -70.974144);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "791 Nitzsche Meadow Unit 91, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.608010, -71.324770);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "744 Bernhard Key, Chelmsford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.395587, -71.080859);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "122 Thompson Drive Apt 65, Brookline, Massachusetts, 02215, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.253465, -71.618176);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "472 Mertz Ranch Unit 39, Grafton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.686896, -71.312468);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "669 Sauer Station Suite 95, Chelmsford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.153354, -71.866136);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "601 Gleason Esplanade Apt 53, Dudley, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.531538, -70.799698);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "952 Reilly Knoll, Marblehead, Massachusetts, 01945, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.358202, -71.768484);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "417 Harvey Parade Suite 35, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.848576, -70.939648);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "420 Stroman Trace Suite 75, Freetown, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.125984, -71.344434);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1001 Beatty Key Unit 45, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.704952, -70.421843);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "317 Kohler Promenade, Mashpee, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.392534, -72.454102);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "697 Turcotte Station, Amherst, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.463198, -70.988052);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "464 Grant Dam, Chelsea, Massachusetts, 02149, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.299941, -71.068065);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "267 Schroeder Viaduct Unit 83, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.539427, -70.908883);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "816 Renner Plaza Unit 73, Peabody, Massachusetts, 01940, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.340046, -71.894979);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "616 Reilly Extension, Spencer, Massachusetts, 01562, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.147184, -70.972603);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "127 Osinski Green Unit 31, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.084898, -72.447458);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "830 Ortiz Crossing, East Longmeadow, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.361811, -71.760478);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "948 Altenwerth Camp, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.351958, -71.052005);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "611 Barrows Vale Suite 5, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.640047, -70.405827);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "206 Lebsack Bypass Apt 71, Mashpee, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.284147, -71.770830);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "988 Gusikowski Lodge, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.679422, -72.267771);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "676 Okuneva Haven Suite 62, Orange, Massachusetts, 01364, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.370363, -72.272130);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "219 Hessel Green Unit 66, Ware, Massachusetts, 01082, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.544818, -73.250137);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "985 Bayer Gate, Pittsfield, Massachusetts, 01201, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.477567, -71.106507);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "838 Fadel Drive Apt 80, Arlington, Massachusetts, 02474, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.996833, -70.578586);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "844 Ferry Pathway Unit 18, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.133085, -72.436859);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "889 Sanford Row, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.477858, -73.205385);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "679 Buckridge Ramp Suite 87, Pittsfield, Massachusetts, 01201, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.098953, -71.353726);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "619 Luettgen Common, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.182532, -71.105934);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "463 Glover Row Apt 55, Sharon, Massachusetts, 02067, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.758325, -71.163356);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "802 Barrows Knoll, Methuen, Massachusetts, 01841, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.108676, -71.396262);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "469 Kris Promenade Unit 59, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.433979, -71.090395);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "820 Konopelski Street Suite 6, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.591144, -71.428831);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "972 Fahey Mill, Westford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.288831, -72.100460);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "875 Volkman Fork, Warren, Massachusetts, 01083, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.404436, -71.001583);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "291 Crooks Extension, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.355156, -71.371617);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "211 Hilpert Mews, Framingham, Massachusetts, 01701, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.126604, -70.977678);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "419 Bahringer Way, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.123847, -71.208191);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1021 Kertzmann Station, Foxborough, Massachusetts, 02035, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.259705, -71.789772);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "746 Skiles Lane, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.173125, -71.321778);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "716 Pfannerstill Wall, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.939610, -70.879739);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "714 Farrell Ranch Unit 33, Amesbury, Massachusetts, 01913, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.060102, -70.682719);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "775 Ryan Manor, Duxbury, Massachusetts, 02332, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.128813, -72.471798);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1076 Schoen Junction Suite 21, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.422948, -71.074428);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1004 Schultz Frontage road, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.278669, -71.390663);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "487 Gleason Gardens Unit 84, Ashland, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.698664, -71.614920);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "729 Nienow Gateway, Townsend, Massachusetts, 01469, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.994440, -70.621800);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "320 Terry Underpass Unit 44, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.343436, -71.752292);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "606 O'Connell Boulevard, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.432365, -71.451319);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "327 Koelpin Center Unit 37, Marlborough, Massachusetts, 01752, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.906483, -70.535593);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "597 Rogahn Vista, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.400003, -72.473285);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "953 Davis Quay Unit 61, Hadley, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.397093, -71.494497);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "576 Gorczany Ferry, Southborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.203052, -72.514613);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "313 Rutherford Fork Apt 67, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.202508, -71.047902);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "721 Smitham View Suite 35, Stoughton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.541407, -71.011396);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "233 Mitchell Neck, Saugus, Massachusetts, 01906, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.379314, -70.904552);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "648 Walker Ranch, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.539795, -70.948890);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "273 Schuppe Bridge Suite 35, Saugus, Massachusetts, 01906, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.257383, -71.049787);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "225 Konopelski Stravenue, Quincy, Massachusetts, 02169, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.128711, -72.491690);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1050 Bradtke Corner, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.367342, -71.605029);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1046 MacGyver Arcade Unit 39, Northborough, Massachusetts, 01532, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.259376, -70.922724);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "680 Little Trafficway, Braintree, Massachusetts, 02184, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.350776, -71.630700);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1090 Hegmann Approach Unit 65, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.200505, -71.098458);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "930 Gutkowski Track, Stoughton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.323796, -72.208276);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "666 Zemlak Fork Unit 6, Ware, Massachusetts, 01082, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.314237, -71.760842);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "625 Wisozk Row Apt 50, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.224821, -72.155364);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "323 Hackett Manor, Warren, Massachusetts, 01083, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.342478, -71.189013);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "267 Jenkins Track Suite 94, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.354271, -71.487499);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "639 Herman Forge Apt 5, Marlborough, Massachusetts, 01752, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.439684, -71.023570);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1032 Mueller Port Unit 42, Everett, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.572366, -71.085184);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1099 Kozey Junction Unit 37, Wilmington, Massachusetts, 01887, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.412728, -71.037956);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "375 Breitenberg Alley, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.713994, -71.066203);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "835 Robel Wynd Suite 55, Lawrence, Massachusetts, 01840, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.439534, -70.977423);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "328 Hamill Gateway Suite 73, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.181759, -72.440246);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "891 Von Bridge Unit 62, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.869741, -71.068044);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "240 Cassin Center Apt 88, Haverhill, Massachusetts, 01830, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.210878, -72.483459);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "831 Durgan Center, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.390136, -73.324373);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1027 Satterfield Spur Unit 67, Richmond, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.394933, -72.486193);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "782 Crona Viaduct, Amherst, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.412669, -71.022866);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "611 Heidenreich Center, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.599382, -71.147372);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "969 Gleichner Bay, Wilmington, Massachusetts, 01887, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.657999, -71.376388);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "688 Orn Throughway Unit 60, Westford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.449448, -71.088773);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1063 Raynor Harbor, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.862643, -70.954490);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "957 O'Conner Glen, Amesbury, Massachusetts, 01913, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.536541, -70.758155);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "373 Emard Tunnel, Marblehead, Massachusetts, 01945, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.259453, -72.076184);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "858 Bernhard Estate Apt 2, Brookfield, Massachusetts, 01506, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.357500, -70.081453);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "971 Pfeffer Mission, Nantucket, Massachusetts, 02554, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.569499, -70.920129);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "446 Dickens Ramp, Peabody, Massachusetts, 01940, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.116527, -71.337443);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "143 McKenzie Highlands Suite 66, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.382325, -71.087471);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "896 Langworth Lane, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.147665, -70.938550);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "830 Pouros Viaduct Unit 6, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.617262, -71.101501);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "492 Lynch Estate Apt 45, Reading, Massachusetts, 01801, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.364446, -71.021620);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "648 McKenzie Wall, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.526707, -70.995442);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "515 Bogisich Road Apt 49, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.770014, -71.063692);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "868 Mayer Walk, Lawrence, Massachusetts, 01840, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.419939, -71.128108);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "257 Bradtke Mill Unit 35, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.551415, -71.110654);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1084 Morissette Walk Unit 88, Burlington, Massachusetts, 01730, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.062244, -71.290944);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "686 Murray Mission, North Attleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.767974, -73.069334);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "973 Romaguera Route Apt 88, North Adams, Massachusetts, 01247, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.800697, -71.089183);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "104 Bode Alley, Methuen, Massachusetts, 01841, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.304650, -71.722951);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1049 Dickens View Apt 46, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.384297, -71.012924);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "326 Stracke Avenue Apt 22, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.393654, -70.910140);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "921 Mante Ferry Unit 2, Winthrop, Massachusetts, 02128, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.375546, -71.084579);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "925 Lebsack Road, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.490165, -71.475357);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "319 Lubowitz Terrace, Stow, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.390899, -71.174345);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "125 Larson Wynd, Waltham, Massachusetts, 02451, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.476388, -70.976218);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1085 Spinka Village, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.515286, -71.222767);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "440 Jakubowski Annex, Bedford, Massachusetts, 01730, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.127664, -71.407156);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "560 Pouros Byway Apt 51, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.446940, -71.120278);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1093 Grady Estate, Watertown, Massachusetts, 02472, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.788073, -70.913439);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1027 Kilback Club, Georgetown, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.232459, -72.742447);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "441 Quigley Promenade Suite 33, Westfield, Massachusetts, 01085, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.933192, -70.614335);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "290 O'Conner Union, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.681606, -71.413200);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "516 Reichel Hollow Apt 91, Westford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.438764, -71.059084);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "616 Zboncak Promenade Apt 32, Belmont, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.818827, -70.995516);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "594 McKenzie Boulevard Suite 5, Haverhill, Massachusetts, 01830, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.613522, -71.006863);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1089 Bruen Quay, Lynnfield, Massachusetts, 01940, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.361817, -71.762184);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "481 Stracke Grove, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.984161, -71.312086);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "383 Mueller Spur, North Attleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.310709, -71.090091);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "134 Russel Trace Apt 95, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.516699, -71.152257);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "773 Harvey Viaduct Unit 85, Arlington, Massachusetts, 02474, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.301474, -70.909109);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "660 Ledner Frontage road, Quincy, Massachusetts, 02169, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.217010, -72.614149);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "343 DuBuque Glen, Holyoke, Massachusetts, 01040, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.292485, -71.794028);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1070 Thiel Bypass Suite 86, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.756405, -72.416079);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "284 Graham Grove Suite 56, Northfield, Massachusetts, 01360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.346768, -71.011242);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "886 Stamm Highlands, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.633186, -71.484028);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "368 Hoppe Rapid Suite 37, Littleton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.368194, -71.692324);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "849 Rosenbaum Light Apt 42, Boylston, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.287571, -71.384032);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "188 Marquardt Throughway, Ashland, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.729802, -73.175208);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "722 Muller Arcade Unit 78, Williamstown, Massachusetts, 01267, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.494696, -71.026925);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1049 Hilpert Flat Suite 78, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.524776, -70.790122);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "898 Jones Club Apt 41, Marblehead, Massachusetts, 01945, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.306703, -71.531097);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "893 Schimmel Divide Unit 10, Hopkinton, Massachusetts, 01748, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.438185, -71.049623);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1066 Schulist Row, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.446144, -73.025878);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "238 Kutch Mill Suite 45, Hinsdale, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.453314, -71.007588);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "364 Armstrong View Suite 97, Cambridge, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.113948, -70.984735);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "520 Harvey Rapid, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.764656, -71.108050);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "317 Mayert Junction, Somerset, Massachusetts, 02725, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.276840, -71.751544);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "270 Russel Branch, Millbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.585207, -70.942709);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "802 Buckridge Pathway, Danvers, Massachusetts, 01923, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.442604, -71.080618);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "749 Rolfson Lock Unit 69, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.747927, -71.148126);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "941 Hand Forge Unit 91, Somerset, Massachusetts, 02725, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.424505, -71.093268);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "759 Jast Underpass Apt 34, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.166652, -70.973229);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1098 Oberbrunner Common, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.377418, -71.515910);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "374 Heaney Dam, Marlborough, Massachusetts, 01752, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.351080, -71.716063);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "152 Kuhn Grove Unit 7, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.319289, -71.095893);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "741 Leannon Highlands, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.492116, -70.987831);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1099 Franecki Rue Unit 60, Melrose, Massachusetts, 02176, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.389176, -72.576860);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "132 Gleichner Dam Unit 66, Northampton, Massachusetts, 01053, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.656626, -71.235654);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "994 Rice Arcade Apt 37, Lowell, Massachusetts, 01850, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.030358, -71.038523);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "516 Murazik Spur, Raynham, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.184336, -72.498166);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "302 Stanton Route Suite 42, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.192947, -70.916574);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "764 Beahan Dam Unit 4, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.420298, -71.028048);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "397 Berge Quay Unit 35, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.308572, -71.733847);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "394 Collins Hollow, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.445816, -71.037841);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "105 Jacobi Frontage road Unit 64, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.337810, -70.943770);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "459 Feeney Road Suite 64, Quincy, Massachusetts, 02169, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.090058, -70.925158);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "470 Jones Underpass Apt 35, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.122242, -71.345372);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "709 O'Keefe Skyway Unit 13, Franklin, Massachusetts, 02038, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.130695, -70.678886);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "210 Konopelski Ramp, Marshfield, Massachusetts, 02050, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.374025, -71.016576);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "578 King Run Unit 88, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.567466, -70.824783);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "866 Rodriguez Overpass Apt 72, Salem, Massachusetts, 01907, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.229916, -72.743599);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "805 Marvin Harbor Suite 80, Westfield, Massachusetts, 01085, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.325000, -71.741851);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "111 Muller Parade Unit 58, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.412282, -71.040143);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "463 Dickens Mill, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.994093, -70.589553);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "867 Conn Gate Unit 99, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.389401, -71.274884);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "181 Sawayn Ville Suite 53, Weston, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.484872, -71.265393);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "151 Blick Lane Apt 32, Lincoln, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.388846, -71.484742);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "110 Mitchell Lodge, Marlborough, Massachusetts, 01752, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.975865, -70.900199);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "742 Feil Glen, Bridgewater, Massachusetts, 02324, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.437680, -71.153303);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "655 Stehr Manor, Waltham, Massachusetts, 02451, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.591965, -71.284222);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "730 Kilback Center Unit 3, Carlisle, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.403295, -70.956935);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "389 Haag Burg Apt 31, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.767342, -71.097875);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "589 Davis Boulevard, Lawrence, Massachusetts, 01840, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.439247, -71.135419);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "748 Gorczany Viaduct Suite 18, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.812060, -70.777476);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "574 Rogahn Key, Rochester, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.397032, -71.494358);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "506 Carroll Approach Unit 17, Hudson, Massachusetts, 01749, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.702602, -71.285348);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1002 Herzog Dale Apt 60, Lowell, Massachusetts, 01850, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.476262, -71.467547);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1089 Herzog Byway, Hudson, Massachusetts, 01749, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.850210, -71.086566);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1088 Crona Landing, Haverhill, Massachusetts, 01830, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.928291, -70.664222);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "545 Wunsch Lock, Carver, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.620492, -70.934257);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "529 Bernhard Bypass Unit 35, Dartmouth, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.637528, -70.570835);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "994 Lubowitz Mews Apt 24, Falmouth, Massachusetts, 02540, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.546782, -70.579804);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "550 Haley Dam, Tisbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.458516, -70.998148);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "117 McCullough Rue, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.926669, -70.549893);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "478 Rempel Flat, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.463613, -71.404359);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "320 Leffler Row, Sudbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.537828, -71.167748);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "633 Heaney Lock Apt 17, Burlington, Massachusetts, 01730, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.420124, -70.993396);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "271 Swaniawski Junction Unit 35, Everett, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.070862, -70.620995);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1013 Corwin Knoll, Duxbury, Massachusetts, 02332, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.852066, -70.693933);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "155 Mosciski Center Suite 83, Wareham, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.302430, -71.026298);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "629 Kuvalis Park Apt 54, Milton, Massachusetts, 02186, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.426558, -71.033073);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "612 Gulgowski Green Apt 1, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.389040, -71.013339);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "998 Konopelski Harbor, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.442736, -70.976817);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "245 Koelpin Way, Everett, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.342668, -71.471283);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "192 Erdman Camp, Southborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.813455, -70.761422);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "429 O'Kon Plaza Suite 94, Newburyport, Massachusetts, 01950, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.547363, -71.711376);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "911 Walker Wall, Leominster, Massachusetts, 01420, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.580933, -71.002502);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "290 Schmeler Landing, Westport, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.450010, -71.217311);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "480 Wisoky Vale Suite 14, Weston, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.533011, -70.946765);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "119 Altenwerth Bay, Lynn, Massachusetts, 01901, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.327858, -70.017303);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "716 Gorczany Parade Suite 3, Nantucket, Massachusetts, 02554, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.621798, -70.930608);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "253 Hilpert Rapid Suite 9, Dartmouth, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.345646, -71.323519);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "259 Dach Meadow, Natick, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.531434, -72.481962);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "292 Casper Meadow, Sunderland, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.298984, -71.639624);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1013 Ziemann Quay, Grafton, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.293463, -71.688269);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "381 Tremblay Overpass Apt 77, Shrewsbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.372113, -71.773208);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "545 Kuhlman Tunnel Unit 48, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.177285, -72.535948);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "561 Hansen Forge Suite 16, Chicopee, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.067571, -72.466735);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "667 Herman Knoll Apt 12, East Longmeadow, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.358463, -71.040978);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "616 Leffler Lane, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.148006, -71.906150);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "984 Schinner Landing Suite 20, Dudley, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.377360, -71.702524);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "859 Nolan Corner Apt 97, Shrewsbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.388055, -70.976585);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "239 Nolan Bridge, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.262644, -71.722672);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1042 Kub Branch, Millbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.089075, -70.100079);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "769 Corwin Ferry Unit 49, Provincetown, Massachusetts, 02657, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.313748, -70.862678);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "731 Kling Mission, Hull, Massachusetts, 02045, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.497629, -70.771232);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "360 Friesen Trail, Marblehead, Massachusetts, 01945, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.493847, -70.928585);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "552 Rippin Port, Revere, Massachusetts, 02151, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.372689, -70.977097);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "474 Bednar Route, Quincy, Massachusetts, 02169, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.586920, -70.948669);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "871 Kuhn Spur Unit 47, Lynn, Massachusetts, 01901, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.720932, -70.742404);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "790 Hauck Forge, Ipswich, Massachusetts, 01938, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.889085, -70.889693);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "716 Hoeger Ranch, West Newbury, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.761671, -71.976683);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "570 Schultz Club, Winchendon, Massachusetts, 01475, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.467856, -71.398700);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "292 Heidenreich Center Suite 33, Maynard, Massachusetts, 01754, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.648337, -71.882528);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1045 Bartell Rapid, Westminster, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.532487, -71.545507);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "270 Grant Crossroad Apt 90, Harvard, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.127958, -70.999719);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "991 Casper Forge Unit 10, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.408204, -71.231624);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1067 Turner Center, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.372676, -71.099745);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "736 Bartoletti Common, Brookline, Massachusetts, 02215, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.742670, -70.829445);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1073 Schumm Corner, New Bedford, Massachusetts, 02740, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.406807, -71.186514);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "402 Huels Dale Suite 46, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.357473, -71.709694);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "685 Nienow Rest, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.946737, -71.246457);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "131 Bergstrom Trace Suite 64, Attleboro, Massachusetts, 02703, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.886325, -70.777219);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "918 Wiza Estate Apt 72, Middleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.432292, -71.011257);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "333 Walker Branch Suite 32, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.643610, -71.307542);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "357 Ankunding Station, Chelmsford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.840060, -71.058064);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "294 Williamson Mill, Somerset, Massachusetts, 02725, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.336569, -71.745664);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "582 Padberg View, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.490372, -71.063193);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "724 Schultz Station Suite 50, Woburn, Massachusetts, 01801, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.671542, -71.278689);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "528 Adams Rest, Chelmsford, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.720945, -69.978993);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "455 O'Hara Rapid, Harwich, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.922382, -71.205798);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "340 Corkery Vale, Rehoboth, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.727192, -73.027586);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "515 Ritchie Ville Suite 19, North Adams, Massachusetts, 01247, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.239481, -71.753614);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "458 Fay Lane Suite 4, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.475340, -71.125852);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "500 Stark Highlands, Cambridge, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.071525, -70.635541);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "154 Medhurst Landing Suite 27, Duxbury, Massachusetts, 02332, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.975173, -71.264447);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "592 Hessel Bay Apt 80, North Attleborough, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.633673, -71.311172);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "834 Brakus Lane, Lowell, Massachusetts, 01850, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.442228, -70.977664);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "312 Nolan Pathway Unit 0, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.430432, -71.077711);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "550 Stehr Skyway, Belmont, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.491219, -71.084343);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "994 Gibson Haven, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.342604, -71.414276);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "251 Wilkinson Divide Unit 65, Framingham, Massachusetts, 01701, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.145263, -72.427667);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "721 Kertzmann Lane Suite 30, East Longmeadow, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.183992, -72.409834);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "795 Goyette Junction, Wilbraham, Massachusetts, 01095, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.307996, -72.876961);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "839 Waelchi Lodge, Chester, Massachusetts, 01011, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.944730, -70.570507);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "736 Bartoletti Junction, Plymouth, Massachusetts, 02360, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.521670, -70.999884);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "113 Spencer Ramp Unit 26, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.428343, -71.145003);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "545 Steuber Vale, Watertown, Massachusetts, 02472, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.666800, -71.636565);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "703 Schoen Extension, Townsend, Massachusetts, 01469, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.895296, -70.919892);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "255 Walsh Bypass Apt 61, Amesbury, Massachusetts, 01913, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.341478, -71.073514);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "392 Wyman Vista, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.941145, -71.006784);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "564 Ward Parade Apt 95, Taunton, Massachusetts, 02718, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.323407, -71.031004);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "311 Barton Crossing, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.397129, -71.167161);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "902 Rosenbaum Route, Newton, Massachusetts, 02458, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.250686, -70.984555);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "412 Koss Frontage road Apt 97, Randolph, Massachusetts, 02368, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.731442, -71.163487);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "954 Denesik Highlands, Methuen, Massachusetts, 01841, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.404324, -72.425899);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "261 Klocko Way, Amherst, Massachusetts, , US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.619788, -70.964200);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "320 Stiedemann Trail, Peabody, Massachusetts, 01940, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.099811, -70.978908);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "670 Cole Key Unit 9, Brockton, Massachusetts, 02301, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.315547, -71.668794);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "828 Miller Way Unit 47, Worcester, Massachusetts, 01545, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.374845, -71.083004);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "763 Lemke Route, Boston, Massachusetts, 02108, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.403106, -70.987052);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "474 Erdman Tunnel Apt 73, Cambridge, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.407115, -71.109793);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "323 Wintheiser Mall Suite 64, Somerville, Massachusetts, 02138, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.440247, -71.045166);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "837 Kemmer Ferry Suite 94, Malden, Massachusetts, 02148, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.339061, -71.382698);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "490 MacGyver Tunnel, Framingham, Massachusetts, 01701, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.238769, -71.182206);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "1078 Simonis Fort Suite 51, Norwood, Massachusetts, 02062, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(41.686352, -70.594858);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "972 Hilpert Spur Unit 37, Falmouth, Massachusetts, 02540, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.357430, -71.038708);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "668 Hills Passage, Brookline, Massachusetts, 02215, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.543938, -70.941128);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "880 Rohan Brook, Saugus, Massachusetts, 01906, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.117866, -72.533977);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "280 Klein Dam, Springfield, Massachusetts, 01013, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+		var latlng = new google.maps.LatLng(42.233886, -71.214824);
+		var img = new google.maps.MarkerImage('/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png');
+		var marker = new google.maps.Marker({
+		title: "561 Kuvalis Loaf, Walpole, Massachusetts, 02081, US",
+		icon: img,
+		position: latlng
+		});
+		marker.setMap(map);
+
+	}
+</script>
+</head>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+	<div id="map_canvas" style="width: 100%; height: 100%;"></div>
+</body>
+</html>
