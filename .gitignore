@@ -1,1 +1,3 @@
 googleapikey.txt
+templates/patient_locations.html
+templates/*.html
