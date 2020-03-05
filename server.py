@@ -1,3 +1,5 @@
+# FHIR parsing is done by the FHIR-parser project here: https://pypi.org/project/FHIR-Parser/
+
 from flask import Flask, render_template, request, send_file
 import mapgenerator
 
@@ -33,7 +35,7 @@ def generatemap():
         input[3] = None
     print(input)
     mapgenerator.genmap(input)
-    return render_template("patient_locations.html")
+    return render_template(input[0] + input[1] + ".html")
 
 
 @app.route("/<path:subpath>/FF0000.png")
