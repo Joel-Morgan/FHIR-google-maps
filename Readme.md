@@ -57,6 +57,4 @@ This project is licensed under the Apache License version 2 - see the [LICENSE.m
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Big thanks to the FHIR-Parser project for enabling easy development of this: https://pypi.org/project/FHIR-Parser/
