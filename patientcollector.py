@@ -2,8 +2,6 @@
 
 from haversine import haversine
 from fhir_parser import FHIR, Patient, Observation
-from fhir_parser.patient import Patient, Name, Telecom, Communications, Extension, Identifier
-from fhir_parser.observation import Observation, ObservationComponent
 
 fhir = FHIR()
 

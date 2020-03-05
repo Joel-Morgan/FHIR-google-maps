@@ -2,7 +2,6 @@
 
 from gmplot import gmplot
 import patientcollector, inputhandler
-from haversine import haversine
 
 
 def genmap(input_value):
