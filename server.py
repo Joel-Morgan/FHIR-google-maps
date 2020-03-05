@@ -36,13 +36,13 @@ def generatemap():
     return render_template("patient_locations.html")
 
 
-@app.route("/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/FF0000.png")
-def returnredmarker():
+@app.route("/<path:subpath>/FF0000.png")
+def returnredmarker(subpath):
     return send_file("static/markers/FF0000.png", mimetype="image")
 
 
-@app.route("/home/joel/.local/lib/python3.7/site-packages/gmplot/markers/0000FF.png")
-def returnbluemarker():
+@app.route("/<path:subpath>/0000FF.png")
+def returnbluemarker(subpath):
     return send_file("static/markers/0000FF.png", mimetype="image")
 
 

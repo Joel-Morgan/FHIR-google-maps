@@ -24,4 +24,4 @@ def genmap(input_value):
 
     # Draw
     gmap.apikey = api_key
-    gmap.draw("templates/patient_locations.html")
+    gmap.draw("templates/" + input_value[0] + ", " + input_value[1])
