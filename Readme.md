@@ -15,7 +15,6 @@ Follow the setup here - FHIR_works github - https://github.com/goshdrive/FHIRwor
 Python 3.7 - https://www.python.org/downloads/
 FHIR-parser - pip install FHIR-Parser
 Flask - pip install flask
-Gmplot - pip install gmplot
 Haversine - pip install haversine
 
 SETUP A GOOGLE API KEY FOR YOUR USE: https://support.google.com/googleapi/answer/6158862?hl=en
@@ -58,3 +57,4 @@ This project is licensed under the Apache License version 2 - see the [LICENSE.m
 ## Acknowledgments
 
 * Big thanks to the FHIR-Parser project for enabling easy development of this: https://pypi.org/project/FHIR-Parser/
+* The Map drawing code was adjusted from the Gmplot project to allow for cross platform use: https://github.com/vgm64/gmplot/tree/master/gmplot
