@@ -18,6 +18,7 @@ Flask - pip install flask
 Haversine - pip install haversine
 
 SETUP A GOOGLE API KEY FOR YOUR USE: https://support.google.com/googleapi/answer/6158862?hl=en
+API key must be stored in a text file named "googleapikey.txt" in the root directory.
 ```
 
 Once installed, clone this repository and run the server.py file in python.
