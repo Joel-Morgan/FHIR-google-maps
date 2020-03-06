@@ -35,22 +35,21 @@ def generatemap():
         input[3] = None
     print(input)
     mapgenerator.genmap(input)
-    return render_template(input[0] + input[1] + ".html")
+    return render_template(str(input[0]) + str(input[1]) + ".html")
 
 
-@app.route("/<path:subpath>/FF0000.png")
+@app.route("/<path:subpath>FF0000.png")
 def returnredmarker(subpath):
     return send_file("static/markers/FF0000.png", mimetype="image")
 
 
-@app.route("/<path:subpath>/0000FF.png")
+@app.route("/<path:subpath>0000FF.png")
 def returnbluemarker(subpath):
     return send_file("static/markers/0000FF.png", mimetype="image")
-
-
+    
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=3333, debug=True)
+    app.run(host='0.0.0.0', port=12345, debug=True)
 
 
 
