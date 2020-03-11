@@ -40,7 +40,7 @@ python3.7 server.py
 
 Flask should now bootup and the site will be acessible by:
 ```
-0.0.0.0:3333 or localhost:3333
+0.0.0.0:12345 or localhost:12345
 ```
 
 ## Deployment
